@@ -12,11 +12,15 @@ app.get('/mars', function (req, res) {
 });
 
 app.get('/venus', function (req, res) {
-    res.send('Hello from venus at '+new Date()+' ! from server started at '+t0);
+    res.send('Hello from Venus at '+new Date()+' ! from server started at '+t0);
 });
 
 app.get('/mercury', function (req, res) {
-    res.send('Hello from mercury at '+new Date()+' ! from server started at '+t0);
+    res.send('Hello from Mercury at '+new Date()+' ! from server started at '+t0);
+});
+
+app.get('/jupiter', function (req, res) {
+    res.send('Hello from Jupiter at '+new Date()+' ! from server started at '+t0);
 });
 
 app.listen(port, function () {
