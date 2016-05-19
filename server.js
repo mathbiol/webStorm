@@ -15,6 +15,10 @@ app.get('/venus', function (req, res) {
     res.send('Hello from venus at '+new Date()+' ! from server started at '+t0);
 });
 
+app.get('/mercury', function (req, res) {
+    res.send('Hello from mercury at '+new Date()+' ! from server started at '+t0);
+});
+
 app.listen(port, function () {
     console.log('Example app listening on port '+port);
 });
