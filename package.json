@@ -1,0 +1,22 @@
+{
+  "name": "webstorm",
+  "version": "1.0.0",
+  "description": "testing node dev via webStorm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jonasalmeida@github.com/mathbiol/webStorm.git"
+  },
+  "author": "Jonas Almeida <jalmeida@mathbiol.org> (http://jonasalmeida.info)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathbiol/webStorm/issues"
+  },
+  "homepage": "https://github.com/mathbiol/webStorm#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
