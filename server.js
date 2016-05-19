@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
-var t0 = new Date()
+var t0 = new Date();
+var port = process.env.PORT||3000
 
 app.get('/', function (req, res) {
     res.send('Hello World! from server started at '+t0);
@@ -11,5 +12,5 @@ app.get('/mars', function (req, res) {
 });
 
 app.listen(3000, function () {
-    console.log('Example app listening on port 3000!');
+    console.log('Example app listening on port '+port);
 });
