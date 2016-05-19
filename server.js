@@ -11,6 +11,6 @@ app.get('/mars', function (req, res) {
     res.send('Hello from Mars at '+new Date()+' ! from server started at '+t0);
 });
 
-app.listen(3000, function () {
+app.listen(port, function () {
     console.log('Example app listening on port '+port);
 });
